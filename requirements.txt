@@ -4,4 +4,3 @@ pandas==1.2.4
 networkx==2.5
 scikit-criteria==0.2.10
 itkwidgets==0.32.0
-topogenesis==0.0.2
