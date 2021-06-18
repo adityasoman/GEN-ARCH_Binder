@@ -1,16 +1,42 @@
+<!-- # Welcome to MkDocs
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files. 
+
+# MathJax examples 
+The homomorphism $f$ is injective if and only if its kernel is only the 
+singleton set $e_G$, because otherwise $\exists a,b\in G$ with $a\neq b$ such 
+that $f(a)=f(b)$.
+
+$$
+\operatorname{ker} f=\{g\in G:f(g)=e_{H}\}{\mbox{.}}
+$$
+
+-->
+
 # topoGenesis
 
 [![Build Status](https://travis-ci.org/shervinazadi/topoGenesis.svg?branch=master)](https://travis-ci.org/shervinazadi/topoGenesis)
 [![codecov](https://codecov.io/gh/shervinazadi/topoGenesis/branch/master/graph/badge.svg)](https://codecov.io/gh/shervinazadi/topoGenesis)
 [![GitHub](https://img.shields.io/github/license/shervinazadi/topogenesis)](https://github.com/shervinazadi/topogenesis)
-[![Documentation Status](https://readthedocs.org/projects/topogenesis/badge/?version=latest)](https://topogenesis.readthedocs.io/?badge=latest)
+[![GitHub - Source Code](https://img.shields.io/badge/-source%20code-grey?logo=github)](https://github.com/shervinazadi/topogenesis)
 [![DOI](https://zenodo.org/badge/268286072.svg)](https://zenodo.org/badge/latestdoi/268286072)
+[![Documentation Status](https://readthedocs.org/projects/topogenesis/badge/?version=latest)](https://topogenesis.readthedocs.io/?badge=latest)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4006514.svg)](https://doi.org/10.5281/zenodo.4006514)
-
-
-
-[topoGenesis](https://topogenesis.readthedocs.io/) is an open-source python package providing topological data structures and functions for working with voxel data in Generative Systems and Sciences. The envisaged application areas are:
+[topoGenesis](https://github.com/shervinazadi/topoGenesis) is an open-source python package that provides topological structures and functions for Generative Systems and Sciences for various application areas such as:
 
 - generative design in architecture and built environment
 - generative spatial simulations
@@ -51,10 +77,6 @@ topoGenesis aims to utilize the vast functionalities of fields (mathematical obj
   - Agent-Based Modeling
   - Cellular Automata
 
-## Installation
-
-for installation check [this tutorial](https://topogenesis.readthedocs.io/installation/)
-
-## Genesis Lab: Laboratory of Generative Systems and Sciences
+## Genesis Lab
 
 This project is currently being developed by [Shervin Azadi](https://github.com/shervinazadi) and [Pirouz Nourian](https://github.com/Pirouz-Nourian) at [Genesis Lab: Laboratory of Generative Systems and Sciences](https://www.researchgate.net/lab/Genesis-Laboratory-of-Generative-Systems-and-Sciences-Pirouz-Nourian), Department of Architectural Engineering and Technology, at TU Delft.

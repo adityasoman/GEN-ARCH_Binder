@@ -82,3 +82,33 @@ def test_mesh_sampling():
         computedted_sample_cloud, expected_sample_cloud, rtol=1e-06, atol=0)
 
     # Cleanup
+
+
+def test_flat_mesh_sampling():
+    """
+    Testing flat mesh sampling with sample
+    """
+
+    # Setup
+    tol = 1e-09
+
+    mesh_vertices = np.array([[0.0, 1.0, 0.0],
+                              [1.0, 1.0, 0.0],
+                              [1.0, 0.0, 0.0]])
+    mesh_faces = np.array([[0, 1, 2]])
+    mesh = (mesh_vertices, mesh_faces)
+
+    expected_sample_cloud = np.array(
+        [[0.45, 0.75, 0.],
+         [0.75, 0.45, 0.],
+         [0.75, 0.75, 0.]]
+    )
+    #
+    # Exercise
+    computedted_sample_cloud = tg.geometry.mesh_sampling(mesh, 0.3, tol=tol)
+
+    # Verify
+    np.testing.assert_allclose(
+        computedted_sample_cloud, expected_sample_cloud, rtol=1e-06, atol=0)
+
+    # Cleanup
