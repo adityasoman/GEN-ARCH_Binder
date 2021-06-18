@@ -1,6 +1,0 @@
-numpy
-pandas
-pyvista
-mkdocs-material
-mkdocstrings
-mknotebooks
