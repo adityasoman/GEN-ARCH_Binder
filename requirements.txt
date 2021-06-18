@@ -1,7 +1,9 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
+ipywidgets==7.5.1
+numpy==1.18.5
+pandas==1.2.4 
+networkx==2.5
+scikit-criteria==0.2.10
 itkwidgets==0.32.0
-numpy==1.19.1
-pandas==1.1.2
-pyvista==0.26.0
+pyvista==0.30.1
+trimesh==3.9.20
+matplotlib==3.4.2
